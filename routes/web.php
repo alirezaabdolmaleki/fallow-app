@@ -28,6 +28,6 @@ Route::get('token', function () {
 
     return $user->createToken('myapptoken')->plainTextToken;
 });
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+ Route::get('/', function () {
+    return view('welcome');
+ });
